@@ -29,6 +29,7 @@ dependencies {
     implementation("org.glassfish.web:jakarta.servlet.jsp.jstl")
     providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    @Suppress("kotlin:S6624")
     testImplementation("io.kotest:kotest-runner-junit5:5.6.2")
 }
 
